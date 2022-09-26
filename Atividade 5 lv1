@@ -14,7 +14,14 @@
                 Aceito os termos <input type="checkbox" value="Termos">
 
                 Quantidades entre 1 a 5 <input type="number" min="1" max="5"><br>
-                Cor favorita<input type="color" value="0000f">
+                Cor favorita<input type="color" value="0000f"><br><br>
+
+                <input type="radio" nme="idade" value="18_23"> 18 a 23 anos<br>
+                <input type="radio" name="idade" value="24_30"> 24 à 30 anos<br>
+                <input type="radio" name="idade" value="mais31"> mais de 31 anos<br>
+
+
+
 
             </form>
 
