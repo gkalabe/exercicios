@@ -1,28 +1,40 @@
 <DOCTYPE html>
     <html>
         <body>
-            <h2>Montando um Formulário</h2>
+            <h3>Formulário para cadastro</h3>
 
             <form>
+            <i>Formulário com intuito de atualização cadastral de pessoa física, para atualização de dados na base goveramental. Sejam pessoas com idade mais avançada ou, pessoas novas que nunca fizeram tal atualização em algum posto do CREAS. Ao fazer tal atualização é gerada uma maior facilidade entre descoberta de informações, e a comunicação de instituições com alguma pessoa.</i><br><br>
+
                Nome completo <input type="text" placeholder="Digite seu nome" name="nome"><br><br>
+               Seu número <input type="número" placheolder="Digite seu número" name="número"><br><br>
                E-mail <input type="e-mail" placeholder="Digite seu e-mail" name="e-mail"><br><br>
-               Senha <input type="password" placeholder="Digite sua senha"><br><br>
-                Selecione seu veículo<br>
-                <input type="checkbox" value="Bicicleta aquática"> Eu tenho bicicleta<br>
-                <input type="checkbox" value="Moto"> Eu tenho moto<br>
-                <input type="checkbox" value="Carro"> Eu tenho carro<br><br>
+              
+                Adicione seus dados<br>
+                <input type="checkbox" value="Trabalho"> Trabalho informalmente<br>
+                <input type="checkbox" value="Trablho"> Trabalho com carteira assinada<br>
+                <input type="checkbox" value="Carro"> Possuo Carro<br>
+                <input type="checkbox" value="Casa"> Possuo casa própria<br>
+                <input type="checkbox" value="Casa Alugada"> Moro de alguel<br>
+                <input type="checkbox" value="Apartamento"> Moro em apartamento<br>
+                <input type="checkbox" value="Filhos"> Possuo filhos<br>
+                <input type="checkbox" value="Filhos"> Não possuo filhos<br>    
+                <input type="checkbox" value="Casado"> Sou casado<br>
+                <input type="checkbox" value="Solteiro"> Sou solteiro<br>
+                <input type="checkbox" value="Divorciado"> Sou divorciado<br>
+
                 Aceito os termos <input type="checkbox" value="Termos">
 
-                Quantidades entre 1 a 5 <input type="number" min="1" max="5"><br>
-                Cor favorita<input type="color" value="0000f"><br><br>
+                Quantidades entre 1 a 10 <input type="number" min="1" max="5"><br>
+            
                 
                 Selecione sua idade<br>
-                <input type="radio" nme="idade" value="18_23"> 18 a 23 anos<br>
-                <input type="radio" name="idade" value="24_30"> 24 à 30 anos<br>
-                <input type="radio" name="idade" value="mais31"> Mais de 31 anos<br>
+                <input type="radio" name="idade" value="18_23"> 18 a 23 anos<br>
+                <input type="radio" name="idade" value="24_30"> 24 à 40 anos<br>
+                <input type="radio" name="idade" value="mais31"> Mais de 41 anos<br>
 
-                Selecione um arquivo<br>
-                <input type="file" name="arquivo" multiple>><BR><BR>
+                Envio de documentos para confirmação de informações<br>
+                  <input type="file" name="arquivo" multiple>><BR><BR>
                     <input type="submit" value="cancelar">
                     <input type="button" value="enviar">
 
@@ -35,8 +47,8 @@
 
 
                 </script><br><br>
-                <textarea rows="S" cols="33" placeholder="Digite seu comentário">
-                </textarea>
+
+                <textarea rows="10" cols="40" placeholder="Digite seu comentário"></textarea>
 
             </form>
 
